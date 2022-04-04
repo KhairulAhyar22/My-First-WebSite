@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Serif',sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: inline;
+}
+footer{
+    background-color: rgb(217, 233, 247);
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 18px;
+}
+footer p{
+    text-align: center;
+}
+p{
+    font-family: 'Open Sans';
+    font-size: 20px; 
+    color: rgb(2, 75, 75);  
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(2, 75, 75);
+}
+a:hover{
+    font-weight: bold;
+    color: rgb(146, 129, 2);
+    font-weight: bolder;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+nav{
+    background-color: rgb(217, 233, 247);
+    overflow: auto;
+    top: 0;
+    position: sticky;
+}
+.beranda{
+    background-color: rgb(2, 75, 75);
+    padding: 7px 13px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.beranda:hover{
+    background: -webkit-linear-gradient(right,#3498db,#9b59b6);
+    box-shadow: 2px 2px 18px #3498db;
+    color: white;
+}
+.menu {
+    float: right;
+    margin-right: 15%;
+    padding-top: 15px;
+}
+.logo {
+    float: left;
+    margin-left: 15%;
+}
+.logo p{
+    color: rgb(2, 75, 75);
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Roboto Serif';
+}
+main {
+    width: 1100px;
+    margin: auto;
+}
+.featured-image{
+    float: left;
+    width: 50%;
+}
+#Beranda{
+    overflow: auto;
+    box-shadow: 0px 5px 5px rgb(222, 237, 252);
+}
+#Beranda h1{
+    margin-top: 80px;
+    padding-right: 30px;
+}
+#Beranda p{
+    padding-right: 30px;
+}
+h1{
+    font-size: 50px;
+    color: rgb(0, 125, 156);
+}
+#beranda p{
+    font-size: 25px;
+    color: rgb(2, 75, 75);
+    font-family: 'Open Sans';
+}
+#word {
+    margin-top: 50px;
+    overflow: auto;
+}
+.image{
+    height: 100%;
+    max-width: 550px;
+    float:right
+}
+.doc2 {
+    margin-top: 80px;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: rgb(0, 125, 156);
+}
+.word2 {
+    width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 0px 5px 5px rgb(222, 237, 252);
+    border-radius: 7px;
+    padding: 5px 35px;
+}
+p{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    text-align: justify;
+}
+.img1{
+    width: 730px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.word2 li{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: rgb(2, 75, 75);
+}
+h3 {
+    font-size: 25px;
+    color: rgb(0, 125, 156);
+}
+.img-li{
+    width: 690px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.img_anatomi{
+    max-width: 700px;
+    max-height: 500px;
+    box-shadow: 1px 1px 5px wheat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;  
+    margin-bottom: 30px;
+}
+#Kelas{  
+    width: 1000px;
+    margin: 60px auto;
+    border-radius: 7px;
+    padding: 0px 35px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 290px;
+    margin: 0px 15px;
+    padding: 0px auto;
+}
+.flex-judul{
+    height: auto;
+    text-align: center;
+}
+.card {
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    flex-basis: 33%;
+    font-weight: bolder;
+    background-color: #cbec37;
+    padding: 10px;
+    box-shadow: 1px 5px 15px rgb(195, 197, 99);
+}
+.card:hover{
+    box-shadow: 1px 5px 15px rgb(92, 94, 1);
+    background-color: #c8ec23;
+}
+.card h4{
+    font-family: "Open Sans";
+    font-size: 25px;
+    color: rgb(87, 0, 0);
+    font-weight: bolder;
+}
+.card p{
+    color: rgb(15, 27, 37);
+    margin-top: -20px;
+    text-align: center;
+}
+.button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #01243b;
+    font-family: 'Open Sans';
+    font-size: 20px; 
+    margin: auto;
+    margin-bottom: 2px;
+}
+.button:hover{
+    background: -webkit-linear-gradient(right,#3498db,#9b59b6);
+    box-shadow: 2px 2px 18px #3498db;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+aside{
+    width: 800px;
+    padding-bottom: 30px;
+    margin: 60px auto;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #f2f7fa;
+    box-shadow: 1px 5px 15px rgb(132, 199, 238);
+}
+.header-aside{
+    padding-top: 40px;
+    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: #01243b;
+}
+.profil {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center; 
+}
+.underline{
+    background: #eedf0a;
+    height: 6px;
+    width: 120px; 
+    margin: -25px auto 30px auto;
+    border-radius: 20px;
+}
+.biodata{
+    width: 500px;
+    margin: 50px auto;
+}
+.title,.description{
+    text-align: center;
+    font-size: 25px;
+    padding: 0px 0px;
+    color: #c90300;
+}
+.description{
+    font-size: 20px;
+    color: #2b0201;
+    margin-top: -25px;
+}
+@media screen and (max-width:900px) {  
+    main{
+        margin: 5px auto;
+        padding: 0px;
+        width: 90%;
+        font-size: 15px;
+        overflow: auto;
+    } 
+    #Beranda h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    #Beranda p{
+        text-align: center;
+    }
+    .word,.word2,.word3,.kelas {
+        width: 90%;
+    }
+    .logo{
+        width: 90%;
+        display: none;
+        margin: auto; 
+    }
+    .menu {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        top: 0px;
+    }
+    .menu ul{
+        text-align: center;
+        line-height: 30px;
+    }
+    nav li{
+        display: inline-block;
+        float: none;
+    }
+    .featured-image,.doc,.doc2,.image{
+        float: none;
+        width: 90%;
+        text-align: center;
+    }
+    .word2 img,.img-li,.img_anatomi{
+        width: 100%;
+        height: 100%;
+        object-position: 0%;
+    }
+    aside {
+        width: 90%;
+        overflow: auto;
+        margin: auto;
+    }
+    .flex-row,.flex-judul{
+        flex-direction: column;
+        width: 27%;
+        height: auto;
+        text-align: center;
+    }
+    .profil {
+        width: 100%;
+        height: 100%;
+        max-width: 100px;
+        max-height: 100px;
+        object-fit: cover;
+        object-position: center; 
+        margin: auto;
+    }
+    .header-aside{
+        margin-top: -25px;
+    }
+    #kontak{
+        width: 25%;
+        margin: auto;
+        height: auto;
+    }
+    .biodata{
+        width: auto;
+        margin-bottom: -20px;
+    }
+    .title,.description{
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
